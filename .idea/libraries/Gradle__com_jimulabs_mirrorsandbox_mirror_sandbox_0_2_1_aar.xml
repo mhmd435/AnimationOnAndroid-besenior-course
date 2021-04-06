@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jimulabs.mirrorsandbox:mirror-sandbox:0.2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99afbeea47a45cf2b22c85e3cd791ff2/mirror-sandbox-0.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99afbeea47a45cf2b22c85e3cd791ff2/mirror-sandbox-0.2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99afbeea47a45cf2b22c85e3cd791ff2/mirror-sandbox-0.2.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jimulabs.mirrorsandbox/mirror-sandbox/0.2.1/2006306ba6c345acd3fcd1c2ed0fbc856409cc1b/mirror-sandbox-0.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jimulabs.mirrorsandbox/mirror-sandbox/0.2.1/f98ab4fe5f98cf593647c2f4cc08aa03e30bd036/mirror-sandbox-0.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

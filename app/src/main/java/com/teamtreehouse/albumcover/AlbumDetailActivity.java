@@ -1,20 +1,17 @@
 package com.teamtreehouse.albumcover;
 
 import android.app.Activity;
-import android.content.res.ColorStateList;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.os.Handler;
-import android.support.v7.graphics.Palette;
+
+import androidx.palette.graphics.Palette;
 import android.transition.ChangeBounds;
 import android.transition.Fade;
 import android.transition.Scene;
-import android.transition.Slide;
 import android.transition.Transition;
 import android.transition.TransitionManager;
 import android.transition.TransitionSet;
-import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
