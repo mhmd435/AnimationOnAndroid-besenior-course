@@ -20,7 +20,7 @@ import android.widget.ImageView;
 import com.teamtreehouse.albumcover.transitions.Fold;
 import com.teamtreehouse.albumcover.transitions.Scale;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
@@ -29,11 +29,11 @@ public class AlbumDetailActivity extends Activity {
 
     public static final String EXTRA_ALBUM_ART_RESID = "EXTRA_ALBUM_ART_RESID";
 
-    @Bind(R.id.album_art) ImageView albumArtView;
-    @Bind(R.id.fab) ImageButton fab;
-    @Bind(R.id.title_panel) ViewGroup titlePanel;
-    @Bind(R.id.track_panel) ViewGroup trackPanel;
-    @Bind(R.id.detail_container) ViewGroup detailContainer;
+    @BindView(R.id.album_art) ImageView albumArtView;
+    @BindView(R.id.fab) ImageButton fab;
+    @BindView(R.id.title_panel) ViewGroup titlePanel;
+    @BindView(R.id.track_panel) ViewGroup trackPanel;
+    @BindView(R.id.detail_container) ViewGroup detailContainer;
 
     private TransitionManager mTransitionManager;
     private Scene mExpandedScene;

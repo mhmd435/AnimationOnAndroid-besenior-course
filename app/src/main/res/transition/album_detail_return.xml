@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
     android:transitionOrdering="together">
-    <transition class="com.teamtreehouse.albumcover.transition.Scale">
+    <transition class="com.teamtreehouse.albumcover.transitions.Scale">
         <targets>
             <target android:targetId="@id/fab" />
         </targets>
     </transition>
     <transitionSet android:transitionOrdering="sequential" android:startDelay="300">
-        <transition class="com.teamtreehouse.albumcover.transition.Fold">
+        <transition class="com.teamtreehouse.albumcover.transitions.Fold">
             <targets>
                 <target android:targetId="@id/track_panel" />
             </targets>
         </transition>
-        <transition class="com.teamtreehouse.albumcover.transition.Fold">
+        <transition class="com.teamtreehouse.albumcover.transitions.Fold">
             <targets>
                 <target android:targetId="@id/title_panel"/>
             </targets>
